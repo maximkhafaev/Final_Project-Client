@@ -24,7 +24,7 @@
 
 Экран выбора ответа при прохождении теста
 
-<img src="https://github.com/maximkhafaev/Final_Project-Client/assets/133359009/1eb3503c-1371-46d7-825d-d1481eb8265d" width="250" height="514">
+<img src="https://github.com/maximkhafaev/Final_Project-Client/assets/133359009/2e564a7f-bccb-443f-b921-b81dd94d64d7" width="250" height="514">
 
 Результат прохождения
 
