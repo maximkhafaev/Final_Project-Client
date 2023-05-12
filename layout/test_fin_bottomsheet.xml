@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/BSH_fin_LL"
+    >
+
+    <TextView
+        android:id="@+id/BSH_fin_testname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/empty"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#49454F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/BSH_fin_isSuccessful"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/empty"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#49454F"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        />
+
+    <LinearLayout
+        android:id="@+id/BSH_fin_LL_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/BSH_fin_your_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/your_result"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+
+        <TextView
+            android:id="@+id/BSH_fin_user_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/empty"
+            android:textColor="#49454F"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/BSH_fin_slash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/slash"
+            android:textColor="#49454F"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/BSH_fin_max_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/empty"
+            android:textColor="#49454F"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BSH_fin_LL_need_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/BSH_fin_need"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/need_text_3"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+
+        <TextView
+            android:id="@+id/BSH_fin_required_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/empty"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+
+        <TextView
+            android:id="@+id/BSH_fin_need_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/inter"
+            android:text="@string/need_text_2"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+    </LinearLayout>
+</LinearLayout>

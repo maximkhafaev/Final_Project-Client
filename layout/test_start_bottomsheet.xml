@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/BSH_LL"
+    >
+
+    <TextView
+        android:id="@+id/BSH_testname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/empty"
+        android:textSize="20sp"
+        android:fontFamily="@font/inter_medium"
+        android:textAlignment="center"
+        android:textColor="#49454F"
+        />
+
+    <LinearLayout
+        android:id="@+id/BSH_LL_questions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/BSH_max_res"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/empty"
+            android:textColor="#49454F"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/BSH_questions_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/questions_text"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BSH_LL_need_correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/BSH_need_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/need_text"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+
+        <TextView
+            android:id="@+id/BSH_required_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/empty"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+
+        <TextView
+            android:id="@+id/BSH_need_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="@string/need_text_2"
+            android:textSize="16sp"
+            android:textColor="#49454F"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/BSH_try_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter"
+        android:text="@string/one_try"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textColor="#49454F"
+        />
+
+    <Button
+        android:id="@+id/BSH_start_testBttn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#E8DEF8"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/start_test"
+        android:textColor="#1D192B"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pilot Quiz</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="username_hint">Логин</string>
+    <string name="password_hint">Пароль</string>
+    <string name="loginbttn">Войти</string>
+    <string name="empty"></string>
+    <string name="textAvailable">Доступно</string>
+    <string name="textFinished">Завершены</string>
+    <string name="questions_text">\u0020вопросов</string>
+    <string name="need_text">Необходимо\u0020</string>
+    <string name="need_text_2">\u0020правильных ответов</string>
+    <string name="need_text_3">Порог:\u0020</string>
+    <string name="one_try">У Вас есть одна попытка!</string>
+    <string name="start_test">Начать тестирование</string>
+    <string name="your_result">Ваш результат:\u0020</string>
+    <string name="your_result2">Ваш результат:</string>
+    <string name="slash">\u0020/\u0020</string>
+    <string name="back_to_tests">Назад к списку тестов</string>
+</resources>
