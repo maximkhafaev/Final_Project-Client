@@ -11,6 +11,8 @@
 Скриншоты приложения:
 
 Экран входа в приложение
+
+<img src="https://github.com/maximkhafaev/Final_Project-Client/assets/133359009/205c7919-d232-4937-ac6b-f88a8c22b425" width="500" height="1028">
 ![Screenshot_20230512_194826](https://github.com/maximkhafaev/Final_Project-Client/assets/133359009/205c7919-d232-4937-ac6b-f88a8c22b425)
 Список доступных тестов
 ![Screenshot_20230512_194904](https://github.com/maximkhafaev/Final_Project-Client/assets/133359009/45c6fc0a-a4e7-488e-87fa-452be597a6e0)
